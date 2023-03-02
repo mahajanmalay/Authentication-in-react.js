@@ -1,0 +1,75 @@
+.tDash-main{
+    padding-top: 2rem;
+    font-size: 0.5rem;
+}
+
+.component{
+    display: grid;
+    grid-template-columns: 15rem 2fr 0.1fr 2fr 15rem;
+    grid-template-rows: 2fr 0.2fr 2fr ;
+}
+
+.dash-comp{
+    height: 20rem;
+    /* border: 2px solid white; */
+    /* padding: 3rem 3rem 1rem 3rem; */
+    background-color: rgb(255, 255, 255);
+    box-shadow:  rgba(64, 64, 117, 0.25) 0px 50px 100px -20px,
+    rgba(25, 24, 24, 0.3) 0px 30px 60px -30px;
+}
+
+.dash1{
+    grid-column: 2/3;
+}
+
+.tDash-main img{
+    height: 12rem;
+}
+
+.tDash-main p{
+    font-size: 1.5rem;
+}
+
+.dash2{
+    grid-column: 4/5;
+}
+
+.dash3{
+    grid-row: 3/4;
+    grid-column: -5/-4;
+}
+
+.dash4{
+    grid-row: 3/4;
+    grid-column: -3/-2;
+}
+
+.manage-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+}
+
+.dash5{
+    width: 40rem;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+h3{
+    padding-top: 2rem;
+}
+
+.btnLog{
+    width: 4.5rem;
+    border-radius: 8px;
+    background-color: rgb(215, 212, 250);
+    color: rgb(8, 8, 8);
+    height: 3rem;
+}
+
+.btnLog:hover{
+    background-color: white;
+    color: rgb(123, 114, 245);
+}

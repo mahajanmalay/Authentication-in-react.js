@@ -1,3 +1,4 @@
+
 label {
   display: block;
   margin-top: 10px;
@@ -30,3 +31,33 @@ label {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
+
+/* css styling */
+.navbar-brand{
+
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(#eee, rgb(69,57,248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+li{
+  font-size: 1.2rem;
+}
+
+li:hover{
+  color: rgb(69,57,248);
+}
+
+.navbar{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+
